@@ -1,0 +1,82 @@
+.main{
+  margin:0px;
+  display:flex;
+}
+form{
+  
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 80px;
+
+  padding: 100px;
+  height:40px;
+  width: 80px;
+  
+  
+
+}
+ input{
+  
+  width: 150px;
+  display: block;
+  padding: 12px;
+  margin-bottom: 1px;
+  
+}
+.container{
+  width:15rem;
+  margin:0 0.2em;
+  float:left;
+  border: 1px solid black;
+  position: relative;
+  
+}
+.pic img{
+  width:100%;
+}
+.title{
+  font-weight: bold;
+  margin-bottom: 1em;
+ padding-left: 10px;
+
+}
+.channel,.views{
+  padding-left: 10px;
+  font-size: small;
+  color:gray;
+  margin-bottom: 0.2em;
+}
+button{
+  
+  margin:1em;
+  background-color: aqua;
+  cursor: pointer;
+  padding:1em;
+  border:1px solid black;
+  width: 40%;
+}
+button:hover{
+ background-color: blue;
+}
+.but{
+  display: inline-block;
+  margin:1em;
+  background-color: aqua;
+  cursor: pointer;
+  padding:1em;
+  border:1px solid black;
+  width: 80%;
+}
+.but:hover{
+  background-color: blue;
+ }
+.close{
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+}
+.edit{
+  position: absolute;
+  cursor: pointer;
+  right: 2;
+}
